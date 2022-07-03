@@ -1,0 +1,40 @@
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-color: #45BADD;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background: url(./images/robot.gif);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  background-position: center;
+  background-size: contain;
+  padding: 100px 0;
+}
+
+button{
+  cursor: pointer;
+  width: 180px;
+  background-color: #FF3282;
+  color: white;
+  border: none;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px 10px rgba(0, 0,0, 0.2);
+}
+
+.speech-bubble{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 30px;
+
+}
